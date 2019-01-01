@@ -18,6 +18,11 @@ export const navItems = [
     icon: 'icon-drop'
   },
   {
+    name: 'My Reactions',
+    url: '/my-reaction/my-reaction',
+    icon: 'icon-drop'
+  },
+  {
     name: 'Typography',
     url: '/theme/typography',
     icon: 'icon-pencil'
