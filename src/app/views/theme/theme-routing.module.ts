@@ -3,13 +3,11 @@ import { Routes, RouterModule } from '@angular/router';
 
 import { ColorsComponent } from './colors.component';
 import { TypographyComponent } from './typography.component';
+import { ReactionComponent } from '../../reaction/reaction.component';
 
 const routes: Routes = [
   {
     path: '',
-    data: {
-      title: 'Theme'
-    },
     children: [
       {
         path: '',
@@ -20,6 +18,13 @@ const routes: Routes = [
         component: ColorsComponent,
         data: {
           title: 'Colors'
+        }
+      },
+      {
+        path: 'reactions',
+        component: ReactionComponent,
+        data: {
+          title: 'Reactions'
         }
       },
       {

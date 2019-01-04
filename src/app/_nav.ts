@@ -15,18 +15,18 @@ export const navItems = [
   {
     name: 'Home',
     url: '/dashboard',
-    icon: 'icon-drop'
+    icon: 'icon-smile'
   },
   {
     name: 'My Reactions',
-    url: '/my-reaction/my-reaction',
+    url: '/reactions',
     icon: 'icon-drop'
   },
   {
     name: 'Friends',
     url: '/theme/typography',
     icon: 'icon-pencil'
-  },
+  }
   // {
   //   title: true,
   //   name: 'Components'

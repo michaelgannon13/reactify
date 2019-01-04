@@ -40,6 +40,7 @@ import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 import { TabsModule } from 'ngx-bootstrap/tabs';
 import { ChartsModule } from 'ng2-charts/ng2-charts';
 import { MyReactionComponent } from './my-reaction/my-reaction.component';
+import { ReactionComponent } from './reaction/reaction.component';
 
 @NgModule({
   imports: [
@@ -62,7 +63,8 @@ import { MyReactionComponent } from './my-reaction/my-reaction.component';
     P500Component,
     LoginComponent,
     RegisterComponent,
-    MyReactionComponent
+    MyReactionComponent,
+    ReactionComponent
   ],
   providers: [{
     provide: LocationStrategy,
